@@ -1,0 +1,46 @@
+ <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 7 Challenge Starter</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <main>
+      <section class="content">
+          <h1> Select from an option from the sidebar. <h1>
+          <hr>
+          <h2>Memes</h2>
+          <div class='container', id='meme'></div>
+          
+          <h2>Jokes </h2>
+          <div class='container', id='joke'></div>
+         
+          <h2>Quote </h2>
+          <div class='container', id='quote'></div>
+          
+          <h2>Riddle </h2>
+          <div class='container', id='riddle'></div>
+          </section>
+
+      <!-- No need to change anything in this section -->
+      <section class="sidebar">
+        <h2>Actions</h2>
+        <button onclick="showMeme()">Show a Meme</button>
+        <button onclick="showJoke()">Tell Me a Joke</button>
+        <button onclick="showQuote()">Random Quote</button>
+        <button onclick="showRiddle()">Riddle me</button>
+        <button class="reveal-btn" onclick="revealAnswers()">
+          Reveal Riddle Answer
+        </button>
+        <p class="attribution">
+          Code challenge by
+          <a href="https://www.twitter.com/zg_dev" target="_top">@zg_dev</a>
+        </p>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
